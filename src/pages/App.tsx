@@ -18,10 +18,10 @@ function App() {
   }
 
   function completeTask() {
-    if(selected) {
+    if (selected) {
       setSelected(undefined);
       setTasks(oldTasks => oldTasks.map(task => {
-        if(task.id === selected.id) {
+        if (task.id === selected.id) {
           return {
             ...task,
             selected: false,
@@ -36,13 +36,13 @@ function App() {
   return (
     <div className={style.AppStyle}>
       <Form setTasks={setTasks} />
-      <List 
-        tasks={tasks} 
+      <List
+        tasks={tasks}
         selectTask={selectTask}
       />
-      <Timer 
-        selected={selected} 
-        completeTask={completeTask} 
+      <Timer
+        selected={selected}
+        completeTask={completeTask}
       />
     </div>
   );

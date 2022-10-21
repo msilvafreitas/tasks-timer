@@ -1,10 +1,11 @@
 .clockNumber {
-    background-color: #5D677C;
+    background-color: #000b16;
     box-shadow: 2px 2px 4px #2B2B2B inset;
     height: 3.6rem;
     width: 3rem;
     padding: 8px 4px;
-    border-radius: 10px;
+    border-radius: 1rem;
+    font-family: 'Manjari', sans-serif;
   
     @media screen and (min-width:1280px) {
       height: 10.8rem;
@@ -14,6 +15,8 @@
   
   .clockDivision {
     height: 4.2rem;
+    font-family: 'Manjari', sans-serif;
+    color: #2DE13F;
   
     @media screen and (min-width:1280px) {
       height: 12.6rem;

@@ -60,13 +60,14 @@ button {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
 	display: flex;
 	justify-content: center;
-	font-family: 'Manjari', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #F0F0F0;
-	background-color: #4C4C4C;
+	background-color: #000;
 	height: 100%;
 	width: 100%;
 	padding: 16px;

@@ -1,6 +1,6 @@
 .item {
     background-color: #4D4D4D;
-    border-radius: 8px;
+    border-radius: 1rem;
     box-shadow: 2px 4px 4px #0000009F;
     padding: 12px;
     margin-bottom: 8px;
@@ -22,13 +22,14 @@
   }
 
   .itemSelected {
-    background-color: #292929;
+    background-color: #01213E;
     box-shadow: 2px 4px 4px #0000009F inset;
   }
   
   .itemCompleted {
-    background-color: #566F42;
+    background-color: #2DE13F;
     cursor: auto;
+    color: #01213E;
   
     .completed {
       display: block;
